@@ -1,0 +1,27 @@
+
+git init {install git}
+
+gti status {show the status of file}
+
+git add + (file Name) OR git add . {to add all files}
+
+git commit -m "..." {to commit a message}
+
+git log {to see the log}
+
+
+// recover your file OR check the d/f b/w them //
+
+
+git diff + (file name)
+(ex: - git diff Chapter3.txt)
+
+git checkout (file Name)
+ex: - git checkout Chapter3.txt
+
+// Undo the git init //
+
+git rm --cached -r . {remove git backup}
+(rm: remove, -r: recursive)
+
+
