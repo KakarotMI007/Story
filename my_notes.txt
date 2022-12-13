@@ -24,7 +24,11 @@ ex: - git checkout Chapter3.txt
 git rm --cached -r . {remove git backup}
 (rm: remove, -r: recursive)
 
-// Push Request //
+//Push Request //
+
+git push origin master -u (to upload in github)
+
+// Pull Request //
 
 git clone + URL
 
